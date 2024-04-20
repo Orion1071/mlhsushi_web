@@ -8,6 +8,8 @@
     --font-sub: "Oswald", sans-serif;
     --font-body: "PT Serif", serif;
     --font-bottom: "Crimson Text", serif;
+
+    --margin_bot: 50px;
 }
 
 h1,
@@ -26,9 +28,9 @@ p {
     font-size: 90%;
 }
 
-div {
+/* div {
     margin: 25px;
-}
+} */
 
 /* for hero page */
 .jumbotron {
@@ -274,4 +276,40 @@ p {
     .menu .grid {
         grid-template-columns: 1fr;
     }
+}
+
+
+/* Footer */
+
+footer {
+    margin-bottom: var(--margin_bot);
+    /* background-color: var(--color-primary); */
+    box-shadow: 0px -17px 48px -21px rgba(0, 0, 0, 0.2);
+}
+
+/* Align h5 and p elements within the footer */
+footer h5, footer p, footer .footer_social {
+    text-align: center; /* Align text to the left */
+    position: relative;
+    top: 0;
+    margin-left: 15px; /* Add some left margin for spacing */
+}
+
+/* Ensure the columns are equally spaced */
+footer .col-md-4 {
+    display: flex;
+    align-items: start;
+    
+}
+
+/* Remove space between buttons */
+footer 
+.footer_social a {
+    margin-right: 5px; /* Remove right margin */
+}
+
+
+.accessibility p{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    font-size: 9px;
 }
