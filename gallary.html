@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="section-header" data-aos="fade-up">
-        <h2>Explore our signature dishes</h2>
+        <h2>Gallery</h2>
     </div>
-    This is photo gallary
-    
+    <div class="swiper-container swiper">
+        <div class="swiper-wrapper align-items-center" id="swiper-wrapper">
+            <!-- Images will be added here by JavaScript -->
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script>
+        // This is just an example. In a real-world scenario, you would fetch these URLs from a server.
+        var imageUrls = [
+            'img/appetizer/Edamame(Soybean).jpg',
+            'img/appetizer/Gyoza (Dumpling).JPG',
+            'img/appetizer/Inari.jpg',
+            'img/appetizer/salads.jpg',
+            'img/appetizer/Seaweed Salad.jpg',
+            'img/appetizer/Spring Rolls.JPG'
+        ];
+
+        var swiperWrapper = document.getElementById('swiper-wrapper');
+
+        for (var i = 0; i < imageUrls.length; i++) {
+            var swiperSlide = document.createElement('div');
+            swiperSlide.className = 'swiper-slide';
+
+            var a = document.createElement('a');
+            a.className = 'glightbox';
+            a.dataset.gallery = 'images-gallery';
+            a.href = imageUrls[i];
+
+            var img = document.createElement('img');
+            img.src = imageUrls[i];
+            img.className = 'img-fluid';
+            img.alt = '';
+
+            a.appendChild(img);
+            swiperSlide.appendChild(a);
+            swiperWrapper.appendChild(swiperSlide);
+        }
+
+        var swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: 3,
+            spaceBetween: 10,
+            freeMode: true,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            loop: true,
+            closeOnOutsideClick: true
+        });
+    </script>
 </body>
+
 </html>

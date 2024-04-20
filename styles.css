@@ -143,11 +143,54 @@ p {
     box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
+/* Gallary */
+
+
+.swiper {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+
+
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--color-primary);
+}
+
+.swiper .swiper-slide-active {
+    text-align: center;
+}
+
+
+
 
 /* Menu */
 #menu_index {
     margin: var(--margin_bot);
 }
+
 /* Grid container */
 .menu .grid {
     display: grid;
@@ -175,36 +218,49 @@ p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
 }
+
 /* Modal Content styling */
 .menu .modal-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* This will center the content horizontally */
-    justify-content: center; /* This will center the content vertically */
-    width: auto; /* Adjust width based on content */
-    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
-    max-height: 100%; /* Ensure it doesn't exceed the viewport height */
-    overflow: hidden; /* Hide overflow */
+    align-items: center;
+    /* This will center the content horizontally */
+    justify-content: center;
+    /* This will center the content vertically */
+    width: auto;
+    /* Adjust width based on content */
+    max-width: 100%;
+    /* Ensure it doesn't exceed the viewport width */
+    max-height: 100%;
+    /* Ensure it doesn't exceed the viewport height */
+    overflow: hidden;
+    /* Hide overflow */
 }
 
 /* Image styling within Modal Content */
 .menu .modal-content img {
     display: block;
-    max-width: 60%; /* Ensure it doesn't exceed the container width */
-    max-height: 100%; /* Adjust the max-height as needed */
-    object-fit: contain; /* Ensure the aspect ratio is preserved */
+    max-width: 60%;
+    /* Ensure it doesn't exceed the container width */
+    max-height: 100%;
+    /* Adjust the max-height as needed */
+    object-fit: contain;
+    /* Ensure the aspect ratio is preserved */
     align-items: center;
-    margin: auto; /* This will center the image horizontally */
+    margin: auto;
+    /* This will center the image horizontally */
 }
 
 /* Heading and Paragraph styling within Modal Content */
 .menu .modal-content h2,
 .menu .modal-content p {
-    margin: 10px 0; /* Add some spacing */
+    margin: 10px 0;
+    /* Add some spacing */
     text-align: center;
-    width: 100%; /* Full width of the container */
+    width: 100%;
+    /* Full width of the container */
 }
 
 
@@ -288,7 +344,8 @@ p {
     background-color: var(--color-primary);
 } */
 .contact_us {
-    background: rgba(36, 24, 92, 0.6);;
+    background: rgba(36, 24, 92, 0.6);
+    ;
     border-radius: 16px;
     color: var(--color-default);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -311,7 +368,7 @@ p {
 .glass-form button {
     cursor: pointer;
     color: var(--color-primary);
-    background:var(--color-default);
+    background: var(--color-default);
     /* Light grey background with transparency */
 }
 
@@ -330,29 +387,32 @@ footer {
 }
 
 /* Align h5 and p elements within the footer */
-footer h5, footer p, footer .footer_social {
-    text-align: center; /* Align text to the left */
+footer h5,
+footer p,
+footer .footer_social {
+    text-align: center;
+    /* Align text to the left */
     position: relative;
     top: 0;
-    margin-left: 15px; /* Add some left margin for spacing */
+    margin-left: 15px;
+    /* Add some left margin for spacing */
 }
 
 /* Ensure the columns are equally spaced */
 footer .col-md-4 {
     display: flex;
     align-items: start;
-    
+
 }
 
 /* Remove space between buttons */
-footer 
-.footer_social a {
-    margin-right: 5px; /* Remove right margin */
+footer .footer_social a {
+    margin-right: 5px;
+    /* Remove right margin */
 }
 
 
-.accessibility p{
+.accessibility p {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     font-size: 9px;
 }
-
