@@ -6,21 +6,28 @@
 
     --font-main: "Teko", sans-serif;
     --font-sub: "Oswald", sans-serif;
-    --font-body: "PT Serif" , serif;
+    --font-body: "PT Serif", serif;
     --font-bottom: "Crimson Text", serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 
     font-family: var(--font-main);
 }
-p{
+
+p {
     font-family: var(--font-body);
 }
 
-.fine_script{
+.fine_script {
     font-family: var(--font-bottom);
     font-size: 90%;
+}
+
+div {
+    margin: 25px;
 }
 
 /* for hero page */
@@ -50,18 +57,24 @@ p{
     display: flex;
     flex-direction: column;
     /* justify-content: flex-start;  Aligns items to the top */
-    align-items: center; /* Aligns items horizontally in the center */
+    align-items: center;
+    /* Aligns items horizontally in the center */
 }
 
 
 .jumbotron .row {
     /* ...existing styles... */
-    position: relative; /* Positions the row absolutely within the jumbotron */
+    position: relative;
+    /* Positions the row absolutely within the jumbotron */
     min-height: 100vh;
-    align-items: center; /* Aligns items horizontally in the center */
-    bottom: 0; /* Aligns the row to the bottom of the jumbotron */
-    justify-content: center; /* Aligns items vertically in the center */
-    align-items: center; /* Aligns items horizontally in the center */
+    align-items: center;
+    /* Aligns items horizontally in the center */
+    bottom: 0;
+    /* Aligns the row to the bottom of the jumbotron */
+    justify-content: center;
+    /* Aligns items vertically in the center */
+    align-items: center;
+    /* Aligns items horizontally in the center */
 }
 
 
@@ -73,7 +86,7 @@ p{
     margin-bottom: 20px;
     font-family: var(--font-main);
     color: var(--color-primary);
-    text-shadow:  1px 1px 20px var(--color-tertiary);
+    text-shadow: 1px 1px 20px var(--color-tertiary);
 }
 
 .jumbotron h2 span {
@@ -83,7 +96,7 @@ p{
 
 .jumbotron h3 {
     color: var(--color-primary);
-    text-shadow:  1px 1px 30px var(--color-tertiary);
+    text-shadow: 1px 1px 30px var(--color-tertiary);
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -129,6 +142,136 @@ p{
 }
 
 
+/* Menu */
+
+/* Grid container */
+.menu .grid {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
 
 
-/* for smaller screen */
+/* Card styling */
+.menu .card img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* Modal styling */
+.menu .modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+/* Modal Content styling */
+.menu .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center the content horizontally */
+    justify-content: center; /* This will center the content vertically */
+    width: auto; /* Adjust width based on content */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    max-height: 100%; /* Ensure it doesn't exceed the viewport height */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Image styling within Modal Content */
+.menu .modal-content img {
+    display: block;
+    max-width: 60%; /* Ensure it doesn't exceed the container width */
+    max-height: 100%; /* Adjust the max-height as needed */
+    object-fit: contain; /* Ensure the aspect ratio is preserved */
+    align-items: center;
+    margin: auto; /* This will center the image horizontally */
+}
+
+/* Heading and Paragraph styling within Modal Content */
+.menu .modal-content h2,
+.menu .modal-content p {
+    margin: 10px 0; /* Add some spacing */
+    text-align: center;
+    width: 100%; /* Full width of the container */
+}
+
+
+.menu .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu .close:hover,
+.menu .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.menu img {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    /* This will make the corners rounded */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* This will add a shadow */
+}
+
+.menu #categoryButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.menu .btn-primary {
+
+    background-color: var(--color-primary) !important;
+}
+
+
+.menu>h2,
+p {
+
+    text-align: center;
+
+}
+
+
+.menu .card {
+    border: none !important;
+    /* This will remove the border */
+}
+
+
+
+/* Large screens */
+@media (min-width: 992px) {
+    .menu .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    .menu .grid {
+        grid-template-columns: 1fr;
+    }
+}

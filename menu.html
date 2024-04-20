@@ -1,83 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Items Popup</title>
     <style>
-        /* Grid container */
-        .grid {
-            display: grid;
-            gap: 1rem;
-        }
 
-        /* Large screens */
-        @media (min-width: 992px) {
-            .grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        /* Medium screens */
-        @media (min-width: 768px) and (max-width: 991px) {
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        /* Small screens */
-        @media (max-width: 767px) {
-            .grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Card styling */
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-
-        /* Modal styling */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgb(0,0,0);
-            background-color: rgba(0,0,0,0.4);
-            padding-top: 60px;
-        }
-
-        .modal-content {
-            background-color: #fefefe;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-        }
-
-        .close {
-            color: #aaaaaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
     </style>
 </head>
-<body>
 
+<body>
+    <h2>Menu</h2>
     <!-- Category Buttons -->
     <div id="categoryButtons"></div>
 
@@ -95,6 +29,10 @@
 
     <script>
         // Fetch and display menu items
+
+        // google sheets menu link: 
+        // https://docs.google.com/spreadsheets/d/e/2PACX-1vSz-OlS-ZoYxh1t3g4Yjt_AEXYjdxVS2TIGWPUVG-bRK6gXBO8EyV73cJHOnMEe5saRazPQpntNIJKR/pub?gid=0&single=true&output=csv
+        // fetch('PUBLISHED_CSV_LINK')
         fetch('menu_test.csv')
             .then(response => response.text())
             .then(data => {
@@ -105,26 +43,34 @@
 
                 const categories = [...new Set(items.map(item => item.category))];
                 const categoryButtonsDiv = document.getElementById('categoryButtons');
-                categories.forEach(category => {
+                categories.forEach((category, index) => {
                     const button = document.createElement('button');
                     button.textContent = category;
+                    button.id = category;
+                    // Add Bootstrap classes to style the button
+                    button.classList.add('btn', 'btn-primary', 'mx-2', 'my-2', 'rounded-pill');
                     button.addEventListener('click', () => filterItems(category));
                     categoryButtonsDiv.appendChild(button);
+
+
+
                 });
 
                 const menuItemsDiv = document.getElementById('menuItems');
                 items.forEach(item => {
                     const card = document.createElement('div');
                     card.innerHTML = `
-                        <img src="${item.imagePath}" alt="${item.name}" class="img-fluid">
+                        <img src="${item.imagePath}" alt="${item.name}" class="img-fluid menu_card">
                         <h2>${item.name}</h2>
                         <p>${item.description}</p>`;
                     card.classList.add('card', item.category);
                     card.addEventListener('click', () => openModal(item));
                     menuItemsDiv.appendChild(card);
                 });
-            });
 
+                // Select the first selection by default
+                categoryButtonsDiv.querySelector('button[id="Sushi"]').click();
+            });
         // Function to open the modal with the card content
         function openModal(item) {
             const modal = document.getElementById('myModal');
@@ -133,7 +79,7 @@
                 <img src="${item.imagePath}" alt="${item.name}" class="img-fluid">
                 <h2>${item.name}</h2>
                 <p>${item.description}</p>`;
-            modal.style.display = 'block';
+            modal.style.display = 'flex';
         }
 
         // Function to close the modal
@@ -147,7 +93,7 @@
         closeButton.onclick = closeModal;
 
         // Close modal when the user clicks outside of the modal content
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             const modal = document.getElementById('myModal');
             if (event.target === modal) {
                 closeModal();
@@ -168,4 +114,5 @@
     </script>
 
 </body>
+
 </html>
