@@ -145,7 +145,9 @@ p {
 
 
 /* Menu */
-
+#menu_index {
+    margin: var(--margin_bot);
+}
 /* Grid container */
 .menu .grid {
     display: grid;
@@ -279,6 +281,46 @@ p {
 }
 
 
+/* contact us form */
+
+/* #contact_us_index {
+
+    background-color: var(--color-primary);
+} */
+.contact_us {
+    background: rgba(36, 24, 92, 0.6);;
+    border-radius: 16px;
+    color: var(--color-default);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: 30px;
+    margin: var(--margin_bot);
+    /* Black text */
+}
+
+.glass-form input,
+.glass-form textarea,
+.glass-form button {
+    color: var(--color-default);
+    background: var(--color-default);
+    /* Light grey background with transparency */
+}
+
+.glass-form button {
+    cursor: pointer;
+    color: var(--color-primary);
+    background:var(--color-default);
+    /* Light grey background with transparency */
+}
+
+.glass-form button:hover {
+    color: var(--color-default);
+    background: var(--color-tertiary);
+    /* Light grey background with transparency */
+}
+
 /* Footer */
 
 footer {
@@ -313,3 +355,4 @@ footer
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     font-size: 9px;
 }
+

@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Effect Form</title>
 </head>
-<body>
 
-    <div class="section-header" data-aos="fade-up">
-        <h2>Contact Us</h2>
+<body>
+    <div class="contact_us container py-3">
+        <div class="glass-form">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group mb-3"> <!-- Add this -->
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group mb-3"> <!-- Add this -->
+                    <input type="tel" class="form-control" placeholder="Phone">
+                </div>
+                <div class="form-group mb-3"> <!-- Add this -->
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group mb-3"> <!-- Add this -->
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
     </div>
 
-    This is contact us. Order form will be here.
-    
 </body>
+
 </html>
