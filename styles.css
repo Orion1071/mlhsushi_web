@@ -296,9 +296,12 @@ p {
     flex-wrap: wrap;
 
 }
+.menu #categoryButtons {
+    margin-bottom: var(--margin_bot);
+}
 
 .menu .btn-primary {
-
+    
     background-color: var(--color-primary) !important;
 }
 
@@ -352,7 +355,7 @@ p {
 
 .contact_us {
     
-    background: rgba(36, 24, 92, 0.6);
+    background: rgba(103, 134, 152, 0.6);
     border-radius: 16px;
     color: var(--color-default);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -364,23 +367,27 @@ p {
     /* Black text */
 }
 
+.glass-form .form-control {
+    color: rgb(103, 134, 152);
+}
+
 .glass-form input,
 .glass-form textarea,
-.glass-form button {
-    color: var(--color-default);
-    background: var(--color-default);
+.glass-form .btn-primary {
+    color: rgb(103, 134, 152);
+    background: rgb(244,244,244);
     /* Light grey background with transparency */
 }
 
 .glass-form button {
     cursor: pointer;
-    color: var(--color-primary);
+    color: rgb(103, 134, 152);
     background: var(--color-default);
     /* Light grey background with transparency */
 }
 
 .glass-form button:hover {
-    color: var(--color-default);
+    color:rgb(103, 134, 152);
     background: var(--color-tertiary);
     /* Light grey background with transparency */
 }
