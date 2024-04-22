@@ -1,13 +1,16 @@
 :root {
     --color-default: #e2eaf1;
-    --color-primary: #24185c;
+    --color-primary: #242a78;
     --color-secondary: #160e39;
     --color-tertiary: #537c9c;
 
-    --font-main: "Teko", sans-serif;
-    --font-sub: "Oswald", sans-serif;
-    --font-body: "PT Serif", serif;
-    --font-bottom: "Crimson Text", serif;
+    --font-title: "Abril Fatface", serif;
+    --font-para: "Noto Serif", serif;
+    --font-slogan:   "Roboto", sans-serif;
+    --font-menu: font-family: "Mate", serif;
+    --font-allargy: "Merienda", cursive;
+
+ 
 
     --margin_bot: 50px;
 }
@@ -24,18 +27,28 @@ p {
 }
 
 .fine_script {
-    font-family: var(--font-bottom);
+    font-family: var(--font-allargy);
     font-size: 90%;
 }
 
-/* div {
-    margin: 25px;
-} */
+/* navbar  */
+.navbar {
+    /* position: fixed; */
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(219, 223, 227);
+    margin-bottom: var(--margin_bot);
+}
+
+.navbar ul {
+    font-family: var(--font-main);
+}
 
 /* for hero page */
 .jumbotron {
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/chef_photo.jpg);
+    background-image: linear-gradient(rgb(118, 127, 137), rgba(0, 0, 0, 0.7)), url(img/gallery/Mainchef_cooking.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +101,7 @@ p {
     margin-bottom: 20px;
     font-family: var(--font-main);
     color: var(--color-primary);
-    text-shadow: 1px 1px 20px var(--color-tertiary);
+    /* text-shadow: 1px 1px 20px var(--color-tertiary); */
 }
 
 .jumbotron h2 span {
@@ -98,7 +111,7 @@ p {
 
 .jumbotron h3 {
     color: var(--color-primary);
-    text-shadow: 1px 1px 30px var(--color-tertiary);
+    /* text-shadow: 1px 1px 30px var(--color-tertiary); */
     font-weight: 400;
     margin-bottom: 30px;
 }
