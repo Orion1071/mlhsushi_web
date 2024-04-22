@@ -6,26 +6,23 @@
 
     --font-title: "Abril Fatface", serif;
     --font-para: "Noto Serif", serif;
-    --font-slogan:   "Roboto", sans-serif;
+    --font-slogan: "Roboto", sans-serif;
     --font-menu: font-family: "Mate", serif;
     --font-allargy: "Merienda", cursive;
 
- 
+
 
     --margin_bot: 50px;
 }
-
-h1,
-h2,
-h3 {
-
-    font-family: var(--font-main);
+* {
+    
+    text-align: justify;
+    text-justify: auto;
 }
 
-p {
-    font-family: var(--font-body);
+h2 {
+    color: var(--color-primary);
 }
-
 .fine_script {
     font-family: var(--font-allargy);
     font-size: 90%;
@@ -33,15 +30,15 @@ p {
 
 /* navbar  */
 .navbar {
-    /* position: fixed; */
-    
+    /* position: fixed; */ 
+
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: rgb(219, 223, 227);
     margin-bottom: var(--margin_bot);
 }
 
-.navbar ul {
+.navbar ul a {
     font-family: var(--font-main);
 }
 
@@ -156,10 +153,39 @@ p {
     box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
+/* about us */
+.about_us {
+    margin-bottom: var(--margin_bot);
+
+}
+
+.about_us h2 {
+    font-family: var(--font-title);
+    color: var(--color-primary);
+}
+
+.about_us p {
+    font-family: var(--font-para);
+}
+
+.about_us .fine_script {
+
+    font-family: var(--font-allargy);
+
+}
+
+
+
+
+
+
+
+
+
 /* Gallary */
 
 #gallary_index {
-    margin-bottom:var(--margin_bot)
+    margin-bottom: var(--margin_bot)
 }
 
 .swiper {
@@ -309,19 +335,20 @@ p {
     flex-wrap: wrap;
 
 }
+
 .menu #categoryButtons {
     margin-bottom: var(--margin_bot);
 }
 
 .menu .btn-primary {
-    
+
     background-color: var(--color-primary) !important;
 }
 
 
-.menu>h2,
+.menu h2,
 p {
-
+    font-family: var(--font-menu);
     text-align: center;
 
 }
@@ -332,7 +359,9 @@ p {
     /* This will remove the border */
 }
 
-
+.menu #allergy_info {
+    font-family: var(--font-slogan);
+}
 
 /* Large screens */
 @media (min-width: 992px) {
@@ -367,7 +396,7 @@ p {
 } */
 
 .contact_us {
-    
+
     background: rgba(103, 134, 152, 0.6);
     border-radius: 16px;
     color: var(--color-default);
@@ -388,7 +417,7 @@ p {
 .glass-form textarea,
 .glass-form .btn-primary {
     color: rgb(103, 134, 152);
-    background: rgb(244,244,244);
+    background: rgb(244, 244, 244);
     /* Light grey background with transparency */
 }
 
@@ -400,7 +429,7 @@ p {
 }
 
 .glass-form button:hover {
-    color:rgb(103, 134, 152);
+    color: rgb(103, 134, 152);
     background: var(--color-tertiary);
     /* Light grey background with transparency */
 }
