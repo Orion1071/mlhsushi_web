@@ -47,8 +47,9 @@
 
         // google sheets menu link old: 
         // https://docs.google.com/spreadsheets/d/e/2PACX-1vSz-OlS-ZoYxh1t3g4Yjt_AEXYjdxVS2TIGWPUVG-bRK6gXBO8EyV73cJHOnMEe5saRazPQpntNIJKR/pub?gid=0&single=true&output=csv
-        // fetch('menu_items.csv')
-        fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQHvXgHfPTsazTiQdviK2Gzr7Rn2savLBl30sZXghGBn-8UmvKqwr2ko2WhdUj3v0qRSzjgs3LCAXdI/pub?gid=431764080&single=true&output=csv')
+        // fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQHvXgHfPTsazTiQdviK2Gzr7Rn2savLBl30sZXghGBn-8UmvKqwr2ko2WhdUj3v0qRSzjgs3LCAXdI/pub?gid=431764080&single=true&output=csv')
+        fetch('menu_items.csv')
+        
             .then(response => response.text())
             .then(data => {
                 const items = data.split('\n').map(line => {
