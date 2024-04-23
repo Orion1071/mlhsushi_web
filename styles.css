@@ -34,7 +34,8 @@ h2 {
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: rgb(219, 223, 227);
+    background-color: rgb(249, 250, 252);
+    box-shadow: 0px 17px 48px -21px rgba(0, 0, 0, 0.2);
     margin-bottom: var(--margin_bot);
 }
 
@@ -233,6 +234,7 @@ h2 {
     margin-bottom: var(--margin_bot);
 }
 
+
 /* Grid container */
 .menu .grid {
     display: grid;
@@ -352,10 +354,18 @@ p {
     text-align: center;
 
 }
+.menu .glightbox {
+    text-decoration: none;
+}
+.menu .glightbox .gslide-image img {
+   max-height: 80%;
+}
+
 
 
 .menu .card {
     border: none !important;
+    text-decoration: none;
     /* This will remove the border */
 }
 
