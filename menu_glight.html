@@ -21,6 +21,47 @@
 
     <!-- Allergy information -->
     <div class="menu" style="margin-bottom: 50px" id="allergy_info">
+        <h3>Symbols</h3>
+        <div style="margin-bottom: 50px" class="allergy_icon">
+            <div>
+                <img src="img/icons/wheat.png" alt="wheat">
+                <p>Wheat</p>
+            </div>
+            <div>
+                <img src="img/icons/soy.png" alt="wheat">
+                <p>Soy</p>
+            </div>
+            <div>
+                <img src="img/icons/egg.png" alt="egg">
+                <p>Egg</p>
+            </div>
+            <div>
+                <img src="img/icons/milk.png" alt="milk">
+                <p>Milk</p>
+            </div>
+            <div>
+                <img src="img/icons/beans.png" alt="beans">
+                <p>Beans</p>
+            </div>
+            <div>
+                <img src="img/icons/shellfish.png" alt="shellfish">
+                <p>shellfish</p>
+            </div>
+            <div>
+                <img src="img/icons/peanut.png" alt="peanut">
+                <p>peanut</p>
+            </div>
+            <div>
+                <img src="img/icons/seasame.png" alt="shellfish">
+                <p>Sesame</p>
+            </div>
+            <div>
+                <img src="img/icons/spicy.png" alt="spicy">
+                <p>Spicy</p>
+            </div>
+            
+        </div>
+        <p>(*) indicate raw food product</p>
         <h2>Disclaimer</h2>
         <p>
             PLEASE NOTE THE FOLLOWING SYMBOLS INDICATE THE PRESENCE OF SPECIFIC ALLERGENS IN OUR MENU ITEMS.
@@ -39,8 +80,8 @@
             .then(response => response.text())
             .then(data => {
                 const items = data.split('\n').map(line => {
-                    const [name, description, imagePath, category, options] = line.replace(/(\r\n|\n|\r|\")/gm, "").replace(/(\\n)/gm, "\n").split(',');
-                    return { name, description, imagePath, category, options };
+                    const [name, description, imagePath, subcategory, category, options] = line.replace(/(\r\n|\n|\r|\")/gm, "").replace(/(\\n)/gm, "\n").split(',');
+                    return { name, description, imagePath, subcategory, category, options };
                 });
                 const categories = [...new Set(items.map(item => item.category))];
                 const categoryButtonsDiv = document.getElementById('categoryButtons');
@@ -48,11 +89,46 @@
                     const button = document.createElement('button');
                     button.textContent = category;
                     button.id = category;
-                    button.classList.add('btn', 'btn-primary', 'mx-2', 'my-2', 'rounded-pill');
+                    button.classList.add('menu', 'btn', 'btn-primary', 'mx-2', 'my-2', 'rounded-pill');
                     button.addEventListener('click', () => filterItems(category));
                     categoryButtonsDiv.appendChild(button);
                 });
 
+                // Create the "All" button
+                const allButton = document.createElement('button');
+                allButton.textContent = 'All';
+                allButton.id = 'all';
+                allButton.classList.add('menu', 'btn', 'btn-primary', 'mx-2', 'my-2', 'rounded-pill');
+                allButton.addEventListener('click', () => {
+                    const cards = document.querySelectorAll('.card');
+                    cards.forEach(card => {
+                        card.style.display = 'block'; // Display all cards
+                    });
+
+                    // Remove the 'btn-selected' class from all buttons
+                    const buttons = document.querySelectorAll('.btn');
+                    buttons.forEach(button => {
+                        button.classList.remove('btn-selected');
+                    });
+
+                    // Add the 'btn-selected' class to the "All" button
+                    allButton.classList.add('btn-selected');
+                });
+                categoryButtonsDiv.appendChild(allButton); // Add the "All" button to the buttons div
+
+
+                function getAllergenImages(options) {
+                    return options.split('-').map(allergen => {
+                        allergen = allergen.trim();
+                        if (allergen.toUpperCase() === 'NA') {
+                            return '';
+                        } else {
+                            return `<img style="width:30px;height:30px;border-radius: 10px;margin:10px; box-shadow: 2px;" src="img/icons/${allergen}.png" alt="${allergen}" class="allergy_icon">`;
+                        }
+                    }).join('');
+                }
+                
+                <!-- console.log(items) -->
                 const menuItemsDiv = document.getElementById('menuItems');
                 items.forEach(item => {
                     const card = document.createElement('div');
@@ -61,11 +137,15 @@
                         <img src="${item.imagePath}" alt="${item.name}" class="img-fluid">
                         <h2>${item.name.replace(/(_)/gm, " ")}</h2>
                         <p>${item.description.replace(/(-)/gm, ", ")}</p>
+                        <div class="menu allergy_icon_in_menu" style="align_items:center">${getAllergenImages(item.options)}</div>
                     </a>`;
                     card.classList.add('card', item.category, 'menu');
                     card.setAttribute('data-aos', 'fade-up');
                     menuItemsDiv.appendChild(card);
                 });
+
+
+
 
                 // Select the first selection by default
                 categoryButtonsDiv.querySelector('button[id="Appetizers"]').click();
@@ -74,7 +154,7 @@
                 //categories.forEach(category => {
                 //    GLightbox({
                 //        selector: `.${category}`,
-               //         closeOnOutsideClick: true,
+                //         closeOnOutsideClick: true,
                 //        touchNavigation: true,
                 //        loop: true,
 
@@ -96,12 +176,22 @@
                             card.style.display = 'none';
                         }
                     });
+
+                    // Remove the 'btn-selected' class from all buttons
+                    const buttons = document.querySelectorAll('.btn');
+                    buttons.forEach(button => {
+                        button.classList.remove('btn-selected');
+                    });
+
+                    // Add the 'btn-selected' class to the clicked button
+                    const clickedButton = document.getElementById(category);
+                    clickedButton.classList.add('btn-selected');
                 }
 
-                
+
             });
 
-            
+
     </script>
 
 

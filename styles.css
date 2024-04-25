@@ -4,10 +4,12 @@
     --color-secondary: #160e39;
     --color-tertiary: #537c9c;
 
-    --font-title: "Abril Fatface", serif;
-    --font-para: "Noto Serif", serif;
+    /* --font-title: "Abril Fatface", serif; */
+    /* --font-para: "Noto Serif", serif; */
+    --font-title: "Open Sans", sans-serif;
+    --font-para: "Open Sans", sans-serif;
     --font-slogan: "Roboto", sans-serif;
-    --font-menu: font-family: "Mate", serif;
+    --font-menu: "Open Sans", sans-serif;
     --font-allargy: "Merienda", cursive;
 
 
@@ -20,9 +22,11 @@
     text-justify: auto;
 }
 
-h2 {
+h2, h3 {
     color: var(--color-primary);
 }
+
+
 .fine_script {
     font-family: var(--font-allargy);
     font-size: 90%;
@@ -55,7 +59,7 @@ h2 {
     background-size: cover;
     position: relative;
     min-height: 60vh;
-    padding: 160px 0 60px 0;
+    padding: 400px 0 60px 0;
     margin-bottom: var(--margin_bot);
     /* start on top of screen */
     display: flex;
@@ -79,7 +83,7 @@ h2 {
     /* ...existing styles... */
     position: relative;
     /* Positions the row absolutely within the jumbotron */
-    min-height: 100vh;
+    min-height: 60vh;
     align-items: center;
     /* Aligns items horizontally in the center */
     bottom: 0;
@@ -344,15 +348,24 @@ h2 {
 
 .menu .btn-primary {
 
-    background-color: var(--color-primary) !important;
+    background-color: var(--color-primary);
 }
 
+.menu .btn.btn-primary.btn-selected {
+    background-color:var(--color-tertiary); /* Change this to the color you want for the selected state */
+    color: white; /* Change this to the color you want for the text in the selected state */
+}
 
-.menu h2,
+.menu h2,h3,
 p {
     font-family: var(--font-menu);
     text-align: center;
+    text-decoration: none;
 
+}
+
+.menu .glightbox{
+    color: black;
 }
 .menu .glightbox {
     text-decoration: none;
@@ -371,6 +384,26 @@ p {
 
 .menu #allergy_info {
     font-family: var(--font-slogan);
+}
+
+.menu .allergy_icon_in_menu {
+    display: flex;
+    border-radius: 0px;
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+}
+
+.menu .allergy_icon {
+    display: flex;
+    justify-content: space-between; /* Optional: Adds space between the icons */
+
+}
+
+.menu .allergy_icon img{
+    width: 30px;
+    height: 30px;
+    box-shadow: none;
+    border-radius: 0px;
 }
 
 /* Large screens */
