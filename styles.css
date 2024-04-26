@@ -477,6 +477,39 @@ p {
     /* Light grey background with transparency */
 }
 
+.glass-form-submit .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.glass-form-submit .modal-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Match the modal's border-radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Center text content */
+}
+
+.glass-form-submit #closeModal {
+    font-family: var(--font-title);
+    font-size: 14px; /* Smaller font size */
+    padding: 5px 10px; /* Smaller padding */
+    margin-top: 10px; /* Space above the button */
+    cursor: pointer;
+    color: var(--color-default);
+    border: 1px solid #ccc; /* Optional: Add a border to the button */
+    background-color: var(--color-primary); /* Optional: Add a background color to the button */
+    border-radius: 5px; /* Optional: Add rounded corners to the button */
+}
+
+
 /* Footer */
 
 footer {
