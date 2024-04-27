@@ -133,7 +133,7 @@
                 items.forEach(item => {
                     const card = document.createElement('div');
                     card.innerHTML = `
-                    <a href="${item.imagePath}" class="glightbox ${item.category}" data-glightbox="title:${item.name}; description:${item.description.replace(/(-)/gm, ", ")}; group:${item.category}">
+                    <a href="${item.imagePath}" class="glightbox ${item.category}" data-glightbox="title:${item.name}; description:${item.description.replace(/(-)/gm, ", ")}">
                         <img src="${item.imagePath}" alt="${item.name}" class="img-fluid">
                         <h2>${item.name.replace(/(_)/gm, " ")}</h2>
                         <p>${item.description.replace(/(-)/gm, ", ")}</p>
