@@ -22,14 +22,15 @@
     text-justify: auto;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: var(--color-primary);
 }
 
 
 .fine_script {
+    
     font-family: var(--font-allargy);
-    font-size: 90%;
+    font-size: 100%;
 }
 
 /* navbar  */
@@ -356,7 +357,7 @@ h2, h3 {
     color: white; /* Change this to the color you want for the text in the selected state */
 }
 
-.menu h2,h3,
+.menu h2,h3,h4,
 p {
     font-family: var(--font-menu);
     text-align: center;
@@ -547,5 +548,5 @@ footer .footer_social a {
 
 .accessibility p {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    font-size: 9px;
+    font-size: 10px;
 }
