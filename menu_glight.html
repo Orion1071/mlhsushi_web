@@ -17,15 +17,16 @@
     <div id="categoryButtons"></div>
 
     <!-- Menu Items Grid -->
-    <div id="menuItems" class="grid" style="margin-bottom: 50px"></div>
+    <div id="menuItems" class="grid-container" ></div>
 
     <div  class="menu" style="margin-bottom: 50px;" id="party_tray_available">
         <h4 class="menu">*Party tray available for order*</h4>
+        <h6 class="menu">We offer party trays that can be ordered and customized to your liking. Please contact us for more details!</h6>
     </div>
 
     <!-- Allergy information -->
     <div class="menu"  id="allergy_info">
-        <h3>Symbols</h3>
+        <!-- <h3>Symbols</h3>
         <div style="margin-bottom: 50px" class="allergy_icon">
             <div>
                 <img src="img/icons/wheat.png" alt="wheat">
@@ -64,12 +65,12 @@
                 <p>Spicy</p>
             </div>
             
-        </div>
-        <p style="margin-bottom: 50px">(*) indicate raw food product</p>
+        </div> -->
+        <p style="margin-bottom: 50px">(*) indicate raw food product<br>Information regarding allergens can be provided upon requested.</p>
         
         <h2>Disclaimer</h2>
         <p>
-            PLEASE NOTE THE FOLLOWING SYMBOLS INDICATE THE PRESENCE OF SPECIFIC ALLERGENS IN OUR MENU ITEMS.<br>
+            <strong>Allergen Alert: Please be aware that our menu items might contain or have been in contact with allergens such as </strong> <br>
             <b>Wheat, Soy, Peanuts, Eggs, Milk, Shellfish, Sesame.</b><br>
 
             Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase a risk of foodborne
@@ -140,9 +141,9 @@
                     card.innerHTML = `
                     <a href="${item.imagePath}" class="glightbox ${item.category}" data-glightbox="title:${item.name}; description:${item.description.replace(/(-)/gm, ", ")}">
                         <img src="${item.imagePath}" alt="${item.name}" class="img-fluid">
-                        <h2>${item.name.replace(/(_)/gm, " ")}</h2>
+                        <h4>${item.name.replace(/(_)/gm, " ")}</h4><br>
                         <p>${item.description.replace(/(-)/gm, ", ")}</p>
-                        <div class="menu allergy_icon_in_menu" style="align_items:center">${getAllergenImages(item.options)}</div>
+                        <!-- <div class="menu allergy_icon_in_menu" style="align_items:center">${getAllergenImages(item.options)}</div> -->
                     </a>`;
                     card.classList.add('card', item.category, 'menu');
                     card.setAttribute('data-aos', 'fade-up');
