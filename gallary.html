@@ -24,14 +24,19 @@
     <script>
         // This is just an example. In a real-world scenario, you would fetch these URLs from a server.
         var imageUrls = [
-            'img/gallery/Mainchef_cooking.jpg',
-            'img/gallery/extrachef_cooking.jpg',
-            'img/gallery/recruitstraining.jpg',
-            'img/gallery/displyassortedsushi.jpg',
-            'img/gallery/rawfish.jpg',
-            'img/gallery/maki.jpg',
-            'img/gallery/sushiset.jpg'
-
+            'img/gallary/Chefs.JPG',
+            'img/gallary/Gallary.jpg',
+            'img/gallary/Gallary1.JPG',
+            'img/gallary/Gallary4.jpg',
+            'img/gallary/Gallary9.JPG',
+            'img/gallary/Gallary8.JPG',
+            'img/gallary/Gallary6.JPG',
+            'img/gallary/Gallary13.JPG',
+            'img/gallary/Gallary10.PNG',
+            'img/gallary/Mainchef_cooking.jpg',
+            'img/gallary/extrachef_cooking.jpg',
+            'img/gallary/recruitstraining.jpg',
+            'img/gallary/displyassortedsushi.jpg'
         ];
 
         var swiperWrapper = document.getElementById('swiper-wrapper');
@@ -55,7 +60,7 @@
             swiperWrapper.appendChild(swiperSlide);
         }
 
-        var swiper = new Swiper('.swiper', {
+        var swiper_gallary = new Swiper('.swiper', {
             // Optional parameters
             direction: 'horizontal',
             slidesPerView: 2,
@@ -71,7 +76,7 @@
             },
         });
 
-        const lightboxs = GLightbox({
+        const lightboxs_gallary = GLightbox({
             touchNavigation: true,
             loop: true,
             closeOnOutsideClick: true
