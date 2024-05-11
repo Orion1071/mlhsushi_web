@@ -6,8 +6,8 @@ Calamari Salad,Sesame crusted flavourful calamari salad,img/appetizer/calamarisa
 Avocado Wrap,Avocado-crisp veggies-savory seasoning with dipping sauce,img/appetizer/avocado_warp.jpg,Appetizers,Appetizers,wheat-soy-egg-milk
 Inari ,Deep-fried tofu pouch stuffed with sushi rice<br>Options: Shrimp-Crab-Avocado,img/appetizer/inari.jpg,Appetizers,Appetizers,wheat-soy
 Edamame,Steamed soybeans lightly salted,img/appetizer/edamame(soybean).jpg,Appetizers,Appetizers,beans
-Nigir Sushi,Fresh raw fish on seasoned rice with wasabi and pickel ginger<br>Options: Salmon-Crab-Yellowtail-Tuna-Snapper-Shrimp-Eel*,img/Nigiri/Nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
-Assorted Nigiri, Assorted fresh slices of raw fish with a hint of wasabi- wrapped in nori<br>Options: Salmon-Crab-YellowTail-Shrimp-Tuna- Snapper-Eal*,img/Nigiri/assortednigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
+Assorted Nigiri,Fresh raw fish on seasoned rice with wasabi and pickel ginger<br>Options: Salmon-Crab-Yellowtail-Tuna-Snapper-Shrimp-Eel*,img/Nigiri/Nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
+Sashimi, Assorted fresh slices of raw fish with a hint of wasabi- wrapped in nori<br>Options: Salmon-Crab-YellowTail-Shrimp-Tuna- Snapper-Eal*,img/Nigiri/assortednigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 Spicy Roll & Nigiri Sushi,Assorted nigiri sushi on spicy tuna roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eal*,img/rolls(Maki Sushi)/Spicy Roll & Nigiri Sushi.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame-spicy
 Cali Roll & Nigiri,Assorted nigiri sushi & california roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eal*,img/Nigiri/caliroll&nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 California Roll,Imitation crab meat-avocado-cucumber,img/rolls(Maki Sushi)/California Roll 1.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
@@ -25,12 +25,12 @@ Salmon Avocado Roll,Salmon-avocado with sushi rice,img/rolls(Maki Sushi)/Salmon 
 Tuna Avocado Roll,Tuna-avocado with sushi rice,img/rolls(Maki Sushi)/TunaAvoRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
 Spicy Crab Salad Roll,Fresh crab salad-avocado-cucumber with spicy mayo sauce,img/rolls(Maki Sushi)/SpicyCrabSalad_Roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame-spicy
 Temaki (Hand Roll) ,Nori cone filled with fresh fish- rice & veggie<br>Options: Veggie-Salmon-Crab-Shrimp-Tuna-Eal*,img/handrolls(Seaweed)/Temakisushi.jpg,Hand-Rolls(Seaweed),Sushi,wheat-soy-shellfish-seasame
-Assorted Veggie PokeBowl,Fresh vibrant veggies and savory sauces atop rice-delivering a burst of flavor in each bite,img/bowls/AssortedVeggie_PokeBowl.jpg,Bowls,Bowls,beans-soy
-Golden Salmon PokeBowl,Tender salmon served over rice with assorted fresh veggies and flavourful savory sauces,img/bowls/GoldenSalmon_PokeBowl.jpg,Bowls,Bowls,beans-soy-shellfish-seasame
-Tuna(Ahi) _PokeBowl,Fresh tuna/ Marinated tuna served over rice with assorted fresh veggies and savory sauces,img/bowls/Tuna (Ahi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
-Shrimp(Ebi)_PokeBowl,Succulent shirp served over rice with assorted fresh veggies and flavourful savory sauces,img/bowls/Shrimp(Ebi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
-Grilled Steak PokeBowl,Grilled steak over rice with assorted veggies and flavourful savory sauce,img/bowls/Grilled Steak Bowl.JPG,Bowls,Bowls,beans-soy-seasame
-Teriyaki Grilled Chicken Bowl,Grilled chicken glazed with teriyaki sauce served over rice with assorted fresh veggies,img/bowls/Grilled Chicken Bowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Assorted Veggie Poke Bowl,Fresh vibrant veggies and savory sauces atop rice-delivering a burst of flavor in each bite,img/bowls/AssortedVeggie_PokeBowl.jpg,Bowls,Bowls,beans-soy
+Golden Salmon Poke Bowl,Tender salmon served over rice with assorted fresh veggies and flavourful savory sauces,img/bowls/GoldenSalmon_PokeBowl.jpg,Bowls,Bowls,beans-soy-shellfish-seasame
+Tuna(Ahi) Poke Bowl,Fresh tuna/ Marinated tuna served over rice with assorted fresh veggies and savory sauces,img/bowls/Tuna (Ahi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Shrimp(Ebi) Poke Bowl,Succulent shirp served over rice with assorted fresh veggies and flavourful savory sauces,img/bowls/Shrimp(Ebi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Grilled Steak Poke Bowl,Grilled steak over rice with assorted veggies and flavourful savory sauce,img/bowls/Grilled Steak Bowl.JPG,Bowls,Bowls,beans-soy-seasame
+Grilled Chicken Poke Bowl,Grilled chicken glazed with teriyaki sauce served over rice with assorted fresh veggies,img/bowls/Grilled Chicken Bowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
 Tariyaki Grilled Steak Bowl,Grilled beef steak glazed with teriyaki sauce served over rice with assorted fresh veggies,img/bowls/TarriyakiGrilledSteakBowl.jpg,Bowls,Bowls,
 Japanese Curry Bowl,Choices of Tender sliced Beef or Chicken glazed with japanese curry sauce served over rice,img/bowls/JapaneseCurryChicken_Bowl.jpg,Bowls,Bowls,wheat-soy-egg-seasame
 Gyudon Beef Bowl,Thinly sliced Beef simmered in sweet and savory sauce served over rice<br>steamed & subtlly assorted veggies on a side,img/bowls/GyudonBeef_Bowl.jpg,Bowls,Bowls,wheat-soy-egg-seasame
