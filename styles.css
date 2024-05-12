@@ -1,16 +1,18 @@
 :root {
     --color-default: #e2eaf1;
-    --color-primary: #242a78;
+    --color-primary: #242a78; 
     --color-secondary: #160e39;
     --color-tertiary: #537c9c;
-
-    /* --font-title: "Abril Fatface", serif; */
+    /* #242a7 */
+    /* --font-title: "Abril Fatface", serif;  */
     /* --font-para: "Noto Serif", serif; */
     --font-title: "Open Sans", sans-serif;
     --font-para: "Open Sans", sans-serif;
-    --font-slogan: "Roboto", sans-serif;
+    /* --font-slogan: "Roboto", sans-serif; */
+    --font-slogan: "Caveat", cursive;
     --font-menu: "Open Sans", sans-serif;
     --font-allargy: "Merienda", cursive;
+   
 
 
 
@@ -51,7 +53,8 @@ h2, h3, h4 {
 /* for hero page */
 .jumbotron {
     color: white;
-    background-image: linear-gradient(rgb(118, 127, 137), rgba(0, 0, 0, 0.7)), url(img/gallery/Mainchef_cooking.jpg);
+    background-image: linear-gradient(rgb(149, 156, 165), rgba(0, 0, 0, 0.533)), 
+    url(img/gallary/Chefs.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,25 +100,27 @@ h2, h3, h4 {
 
 
 
-.jumbotron h2 {
+.jumbotron h1 {
     justify-content: flex-start;
     font-size: 64px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: var(--font-main);
     color: var(--color-primary);
     /* text-shadow: 1px 1px 20px var(--color-tertiary); */
 }
 
-.jumbotron h2 span {
+.jumbotron h1 span {
     color: var(--color-default);
 
 }
 
-.jumbotron h3 {
+.jumbotron h2 {
     color: var(--color-primary);
+    font-family: var(--font-slogan);
     /* text-shadow: 1px 1px 30px var(--color-tertiary); */
     font-weight: 400;
+    font-size: 48px;
     margin-bottom: 30px;
 }
 
@@ -452,10 +457,10 @@ p {
 
 .contact_us {
 
-    background: rgba(103, 134, 152, 0.6);
+    
     border-radius: 16px;
     color: var(--color-default);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgb(15,82,186, 0.4);
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(11.5px);
     border: 1px solid rgba(255, 255, 255, 0.45);
@@ -465,20 +470,20 @@ p {
 }
 
 .glass-form .form-control {
-    color: rgb(103, 134, 152);
+    color: rgb(15,82,186);
 }
 
 .glass-form input,
 .glass-form textarea,
 .glass-form .btn-primary {
-    color: rgb(103, 134, 152);
+    color: rgb(15,82,186) ;
     background: rgb(244, 244, 244);
     /* Light grey background with transparency */
 }
 
 .glass-form button {
     cursor: pointer;
-    color: rgb(103, 134, 152);
+    color: rgb(15,82,186);
     background: var(--color-default);
     /* Light grey background with transparency */
 }
@@ -497,7 +502,7 @@ p {
     transform: translate(-50%, -50%);
     width: 80%; /* Adjust the width as needed */
     max-width: 400px; /* Set a maximum width for larger screens */
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(15,82,186);
     z-index: 1000;
 }
 

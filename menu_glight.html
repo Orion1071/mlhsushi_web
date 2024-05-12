@@ -17,15 +17,18 @@
     <div id="categoryButtons"></div>
 
     <!-- Menu Items Grid -->
-    <div id="menuItems" class="grid-container" ></div>
+    <div id="menuItems" class="grid-container"></div>
 
-    <div  class="menu" style="margin-bottom: 50px;" id="party_tray_available">
-        <h4 class="menu">*Party tray available for order*</h4>
-        <h6 class="menu">We offer party trays that can be ordered and customized to your liking. Please contact us for more details!</h6>
+    <div class="menu" style="margin-bottom: 50px;" id="party_tray_available">
+        <p>(*) indicate raw food product<br>Information regarding allergens can be provided
+            upon requested.</p>
+        <h4 class="menu" style=" text-shadow: 0 4px 30px rgba(122, 12, 12, 0.449);">*Party tray available for order*</h4>
+        <p class="menu">We offer special trays for parties. You can choose what you want on them and customize them! Please contact us for
+            more details!</p>
     </div>
 
     <!-- Allergy information -->
-    <div class="menu"  id="allergy_info">
+    <div class="menu" id="allergy_info">
         <!-- <h3>Symbols</h3>
         <div style="margin-bottom: 50px" class="allergy_icon">
             <div>
@@ -66,13 +69,15 @@
             </div>
             
         </div> -->
-        <p style="margin-bottom: 50px">(*) indicate raw food product<br>Information regarding allergens can be provided upon requested.</p>
-        
+
+
         <h2>Disclaimer</h2>
         <p>
-            <strong>Allergen Alert: Please be aware that our menu items might contain or have been in contact with allergens such as </strong> <br>
+            <strong>Allergen Alert: Please be aware that our menu items might contain or have been in contact with
+                allergens such as </strong> <br>
             <b>Wheat, Soy, Peanuts, Eggs, Milk, Shellfish, Sesame.</b><br>
-
+        </p>
+        <p style="text-align: left;">
             Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase a risk of foodborne
             illness, particularly for individuals with certain medical conditions. Please exercise caution when dining.
             Please inform us of any allergies for precautions.<br>For any additional questions or concerns
@@ -133,7 +138,7 @@
                         }
                     }).join('');
                 }
-                
+
                 <!-- console.log(items) -->
                 const menuItemsDiv = document.getElementById('menuItems');
                 items.forEach(item => {
