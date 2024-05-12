@@ -16,7 +16,7 @@
 </head>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-sm fixed-top">
-    <div class="nav_bar container-fluid">
+    <div class="container">
 
         <div class=" d-block d-sm-none justify-content-center">
             <a class="logo d-flex align-items-center me-auto me-lg-0" href="#nav_bars">
@@ -28,7 +28,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div class="container-fluid collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 
  
@@ -68,5 +68,19 @@
 
 </nav>
 <!-- Navbar -->
+
+<script>
+
+    //$('.navbar-toggler').click(function () {
+    //    if (!$('#navbarSupportedContent').hasClass('show')) {
+    //        $('#navbarSupportedContent').collapse('hide');
+    //    }
+    //});
+
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    
+</script>
 
 </html>
