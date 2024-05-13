@@ -9,7 +9,7 @@ Edamame,Steamed soybeans lightly salted,img/appetizer/edamame(soybean).jpg,Appet
 Assorted Nigiri,Fresh raw fish on seasoned rice with wasabi and pickel ginger<br>Options: Salmon-Crab-Yellowtail-Tuna-Snapper-Shrimp-Eel*,img/Nigiri/Nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 Sashimi,Assorted fresh slices of raw fish <br>Options: Salmon-Crab-YellowTail-Shrimp-Tuna- Snapper-Eel*,img/Nigiri/assortednigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 Spicy Roll & Nigiri Sushi,Assorted nigiri sushi on spicy tuna roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/rolls(Maki Sushi)/Spicy Roll & Nigiri Sushi.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame-spicy
-Cali Roll & Nigiri Sushi,Assorted nigiri sushi based on calfornia roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/Nigiri/caliroll&nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
+Cali Roll & Nigiri Sushi,Assorted nigiri sushi based on calfornia roll*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/Nigiri/caliroll&nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 Mini Sea Roll & Nigiri Sushi,Assorted nigiri sushi based on mini sea rolls*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/Nigiri/mini sea rolls & nigiri .jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 California Roll,Imitation crab meat-avocado-cucumber,img/rolls(Maki Sushi)/California Roll 1.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
 Cripsy California Roll,Crunchy fried onion on the classic california roll-Imitation crab meat-avocado-cucumber with spicy mayo sauce and sushi sauce on top,img/rolls(Maki Sushi)/Crispy California Roll 1.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
@@ -20,9 +20,9 @@ Tuna Masago Roll,Spicy tuna on based with fish roe on top ,img/rolls(Maki Sushi)
 Unagi (Eel Roll),Flavored eel & cool cucumber topped with eel sauce,img/rolls(Maki Sushi)/BBQEelRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
 Dragon Roll,Avocado on top with cucumber and eel roll base ,img/rolls(Maki Sushi)/Dragon Roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
 Mini Mix Pack Roll,Bite sized rolls in traditional style with your choice of ingredients*,img/rolls(Maki Sushi)/Mini Mix Pack Roll.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
-Shrimp Tempura Roll,Crispy shrimp tempura-avocado with crunchy fry onion and mild spicy mayo sauce on top,img/rolls(Maki Sushi)/Shrimp Tempura Roll.JPG,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish-spicy
+Shrimp Tempura Roll,Crispy shrimp tempura-avocado with crunchy fried onion-mild spicy mayo and sushi sauce on top,img/rolls(Maki Sushi)/Shrimp Tempura Roll.JPG,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish-spicy
 Mini Sea Pack Roll,Assorted bitesized fish rolls*,img/rolls(Maki Sushi)/MiniSeaPackRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
-Rainbow Roll,Variety of fishes over california roll*,img/rolls(Maki Sushi)/rainbow_roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
+Rainbow Roll,Variety of fishes over california roll*,img/rolls(Maki Sushi)/Rainbow Roll .JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
 Veggie Roll,Cucumber-carrots-avocado-lettuce,img/rolls(Maki Sushi)/VeggieRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-beans-seasame
 Salmon Avocado Roll,Salmon-avocado with sushi rice,img/rolls(Maki Sushi)/Salmon Avo Roll 2.JPG,Rolls(MakiSushi),Sushi,wheat-soy-egg-milk-shellfish-seasame
 Tuna Avocado Roll,Tuna-avocado with sushi rice,img/rolls(Maki Sushi)/TunaAvoRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
@@ -50,7 +50,7 @@ Veggie_Ramen,A flavorful veggie broth with assorted fresh veggies and ramen nood
 Chef Special 1,Delightful selection of favorites: nigiri assortment-spicy rolls and spicy crab salad rolls (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 1.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
 Chef Special 2,Delightful selection of favorites: nigiri assortment-spicy rolls-mini rolls (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 2.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
 MLH Combo,Delightful selection of favorites: rainbow rolls-nigiri assortment-spicy rolls-mini rolls- avo iniari (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 3.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
-Platters (sealand originial),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Sushi_Platter.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
-Platters (assorted ),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Assorted Sushi platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
-Platters (ichiban),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Ichiban Sushi Platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
-Platters (Sunflower sushi),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Sunflower Sushi Platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (Sealand Original),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Sushi_Platter.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (Assorted),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Assorted Sushi platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (Ichiban),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Ichiban Sushi Platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (Sunflower Sushi),Combination of sushi maki rolls and veggie rolls and inari,img/specialities/Sunflower Sushi Platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
