@@ -1,46 +1,56 @@
-Spring Roll Warp,Rice paper rolled with veggies-dipping sauce<br>Options: Seafood;,img/appetizer/springrolls_seafoodchoices.jpg,Appetizers,Appetizers,wheat-egg-paenut-seasame
+Spring Roll Warp,Rice paper rolled with veggies-dipping sauce<br>Options: Seafood ,img/appetizer/springrolls_seafoodchoices.jpg,Appetizers,Appetizers,wheat-egg-paenut-seasame
 Spring Roll,Crispy rolls filled with a colorful mix of veggies-dipping sauce<br>Options: Chicken-Pork,img/appetizer/Deep-fry Spring Rolls.jpg,Appetizers,Appetizers,wheat-egg-paenut-seasame
 Gyoza Dumpling,Protein choices with dipping sauce,img/appetizer/Gyoza(Dumpling).jpg,Appetizers,Appetizers,wheat-beans-seasame
 Seaweed Salad,Sesame crusted fresh seaweed salad,img/appetizer/seaweedsalads.jpg,Appetizers,Appetizers,soy-seasame
 Calamari Salad,Sesame crusted flavourful calamari salad,img/appetizer/calamarisalads.jpg,Appetizers,Appetizers,wheat-soy-peanut-shellfish
 Avocado Wrap,Avocado-crisp veggies-savory seasoning with dipping sauce,img/appetizer/avocado_warp.jpg,Appetizers,Appetizers,wheat-soy-egg-milk
-Inari ,Deep-fried tofu pouch stuffed with sushi rice<br>Options: Shrimp-Crab-Avocado,img/appetizer/inari.jpg,Appetizers,Appetizers,wheat-soy
+Inari,Deep-fried tofu pouch stuffed with sushi rice<br>Options: Shrimp-Crab-Avocado,img/appetizer/inari.jpg,Appetizers,Appetizers,wheat-soy
 Edamame,Steamed soybeans lightly salted,img/appetizer/edamame(soybean).jpg,Appetizers,Appetizers,beans
 Assorted Nigiri,Fresh raw fish on seasoned rice with wasabi and pickel ginger<br>Options: Salmon-Crab-Yellowtail-Tuna-Snapper-Shrimp-Eel*,img/Nigiri/Nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
-Sashimi, Assorted fresh slices of raw fish with a hint of wasabi- wrapped in nori<br>Options: Salmon-Crab-YellowTail-Shrimp-Tuna- Snapper-Eel*,img/Nigiri/assortednigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
+Sashimi,Assorted fresh slices of raw fish <br>Options: Salmon-Crab-YellowTail-Shrimp-Tuna- Snapper-Eel*,img/Nigiri/assortednigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 Spicy Roll & Nigiri Sushi,Assorted nigiri sushi on spicy tuna roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/rolls(Maki Sushi)/Spicy Roll & Nigiri Sushi.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame-spicy
-Cali Roll & Nigiri,Assorted nigiri sushi & california roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/Nigiri/caliroll&nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
+Cali Roll & Nigiri Sushi,Assorted nigiri sushi based on calfornia roll base*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/Nigiri/caliroll&nigiri.jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
+Mini Sea Roll & Nigiri Sushi,Assorted nigiri sushi based on mini sea rolls*<br>Options: Choices of nigiri-Tuna-Shrimp-Salmon-YellowTail-Snapper-Eel*,img/Nigiri/mini sea rolls & nigiri .jpg,Nigiri,Sushi,wheat-soy-shellfish-seasame
 California Roll,Imitation crab meat-avocado-cucumber,img/rolls(Maki Sushi)/California Roll 1.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
-Cripsy California Roll,Crunchy fry onion on the classic california roll-Imitation crab meat-avocado-cucumber with spicy mayo sauce on top ,img/rolls(Maki Sushi)/Crispy California Roll 1.jpg,Rolls(MakiSushi),Sushi,
-Phili Deluxe Roll,Cream cheese-avocado/cucumber with choice of imitation Crab-Salmon or Smoke Salmon,img/rolls(Maki Sushi)/Philly Deluxe Roll (Smoked Salmon) .jpg,Rolls(MakiSushi),Sushi,wheat-soy-egg-milk-seasame
-Crispy Roll,Options: Crab or Shrimp with cucumber and crunchy fried onion-spicy mayo sauce,img/rolls(Maki Sushi)/Crispy Roll 1.jpg,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish
+Cripsy California Roll,Crunchy fried onion on the classic california roll-Imitation crab meat-avocado-cucumber with spicy mayo sauce and sushi sauce on top,img/rolls(Maki Sushi)/Crispy California Roll 1.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
+Philly Deluxe Roll,Cream cheese-avocado/cucumber with choice of imitation Crab-Salmon or Smoke Salmon,img/rolls(Maki Sushi)/Philly Deluxe Roll (Smoked Salmon) .jpg,Rolls(MakiSushi),Sushi,wheat-soy-egg-milk-seasame
+Crispy Roll,Options: Crab or Shrimp with avocado and crunchy fried onion/tempura crumbs-spicy mayo sauce and sushi sauce,img/rolls(Maki Sushi)/Crispy Roll 1.jpg,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish
 Spicy Roll,Seafood choices with cucumber-avocado-mild spicy sauce<br> Options:Tuna-Shrimp-Salmon*,img/rolls(Maki Sushi)/Spicy Roll 1.jpg,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish-spicy
-BBQ Eel Roll,Flavored eel & cool cucumber topped with eel sauce,img/rolls(Maki Sushi)/BBQEelRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
-Hosomaki Roll,Bite sized rolls in traditional style with your choice of ingredients*,img/rolls(Maki Sushi)/hosomaki.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
-Shrimp Tempura Roll,Crispy shrimp tempura-avocado with crunchy fry onion and mild spicy mayo sauce on top,img/rolls(Maki Sushi)/Shrimp Tempura Roll.JPG,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish-spicy 
+Tuna Masago Roll,Spicy tuna on based with fish roe on top ,img/rolls(Maki Sushi)/Tuna Masago Roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish-spicy
+Unagi (Eel Roll),Flavored eel & cool cucumber topped with eel sauce,img/rolls(Maki Sushi)/BBQEelRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
+Dragon Roll,Avocado on top with cucumber and eel roll base ,img/rolls(Maki Sushi)/Dragon Roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
+Mini Mix Pack Roll,Bite sized rolls in traditional style with your choice of ingredients*,img/rolls(Maki Sushi)/Mini Mix Pack Roll.JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
+Shrimp Tempura Roll,Crispy shrimp tempura-avocado with crunchy fry onion and mild spicy mayo sauce on top,img/rolls(Maki Sushi)/Shrimp Tempura Roll.JPG,Rolls(MakiSushi),Sushi,wheat-soy-egg-shellfish-spicy
 Mini Sea Pack Roll,Assorted bitesized fish rolls*,img/rolls(Maki Sushi)/MiniSeaPackRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
 Rainbow Roll,Variety of fishes over california roll*,img/rolls(Maki Sushi)/rainbow_roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish
 Veggie Roll,Cucumber-carrots-avocado-lettuce,img/rolls(Maki Sushi)/VeggieRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-beans-seasame
 Salmon Avocado Roll,Salmon-avocado with sushi rice,img/rolls(Maki Sushi)/Salmon Avo Roll 2.JPG,Rolls(MakiSushi),Sushi,wheat-soy-egg-milk-shellfish-seasame
 Tuna Avocado Roll,Tuna-avocado with sushi rice,img/rolls(Maki Sushi)/TunaAvoRoll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame
-Spicy Crab Salad Roll,Fresh crab salad-avocado-cucumber with spicy mayo sauce,img/rolls(Maki Sushi)/SpicyCrabSalad_Roll.jpg,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame-spicy
-Temaki (Hand Roll) ,Nori cone filled with fresh fish- rice & veggie<br>Options: Veggie-Salmon-Crab-Shrimp-Tuna-Eel*,img/handrolls(Seaweed)/Temakisushi.jpg,Hand-Rolls(Seaweed),Sushi,wheat-soy-shellfish-seasame
+Spicy Crab Salad Roll,Fresh crab salad-avocado-cucumber with spicy mayo sauce on top,img/rolls(Maki Sushi)/Spicy Crab Salad Roll .JPG,Rolls(MakiSushi),Sushi,wheat-soy-shellfish-seasame-spicy
+Temaki (Hand Roll),Nori cone filled with fresh fish- rice & veggie<br>Options: Veggie-Salmon-Crab-Shrimp-Tuna-Eel*,img/handrolls(Seaweed)/Temakisushi.jpg,Hand-Rolls(Seaweed),Sushi,wheat-soy-shellfish-seasame
 Assorted Veggie Poke Bowl,Fresh vibrant veggies and savory sauce atop rice-delivering a burst of flavor in each bite,img/bowls/AssortedVeggie_PokeBowl.jpg,Bowls,Bowls,beans-soy
-Golden Salmon Poke Bowl,Tender salmon served over rice with assorted fresh veggies and flavourful savory sauce,img/bowls/GoldenSalmon_PokeBowl.jpg,Bowls,Bowls,beans-soy-shellfish-seasame
-Tuna(Ahi) Poke Bowl,Fresh tuna/ Marinated tuna served over rice with assorted fresh veggies and savory sauce,img/bowls/Tuna (Ahi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
-Shrimp(Ebi) Poke Bowl,Succulent shirp served over rice with assorted fresh veggies and flavourful savory sauce,img/bowls/Shrimp(Ebi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Golden Salmon Poke Bowl,Tender salmon/Marinated salmon served over rice with assorted fresh veggies and flavourful savory sauce,img/bowls/GoldenSalmon_PokeBowl.jpg,Bowls,Bowls,beans-soy-shellfish-seasame
+Tuna(Ahi) Poke Bowl,Fresh/Marinated tuna served over rice with assorted fresh veggies and savory sauce,img/bowls/Tuna (Ahi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Shrimp(Ebi) Poke Bowl,Succulent shirmp/Marinated Shrimp served over rice with assorted fresh veggies and flavourful savory sauce,img/bowls/Shrimp(Ebi)_PokeBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
 Grilled Steak Poke Bowl,Grilled steak over rice with assorted veggies and flavorful savory sauce,img/bowls/Grilled Steak Bowl.JPG,Bowls,Bowls,beans-soy-seasame
-Grilled Chicken Poke Bowl,Grilled chicken served over rice with assorted fresh veggies and flavourful savory sauce,img/bowls/Grilled Chicken Bowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
-Tariyaki Grilled Steak Bowl,Grilled beef steak glazed with teriyaki sauce served over rice with assorted fresh veggies,img/bowls/TarriyakiGrilledSteakBowl.jpg,Bowls,Bowls,
+Grilled Chicken Poke Bowl,Grilled chicken served over rice with assorted fresh veggies and flavorful savory sauce,img/bowls/Grilled Chicken Bowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Tariyaki Grilled Chicken Bowl,Grilled chicken glazed with teriyaki sauce served over rice with assorted veggies,img/bowls/Teriyaki Grilled Chicken Bowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Tariyaki Salmon Bowl,Grilled seasoned salmon glazed with teriyaki sauce served over rice with assorted fresh veggies and flavorful savory sauce,img/bowls/Teriyaki Salmon Bowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Tariyaki Grilled Steak Bowl,Grilled beef steak glazed with teriyaki sauce served over rice with assorted fresh veggies,img/bowls/TarriyakiGrilledSteakBowl.jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
+Tariyaki Tofu & Veggie Bowl,Grilled tofu glazed with teriyaki sauce served over rice with assorted veggies,img/bowls/Teriyaki Tofu & Vegetable Bowl .jpg,Bowls,Bowls,wheat-soy-egg-shellfish-seasame
 Japanese Chicken Curry Bowl,Tender sliced Chicken glazed with japanese curry sauce served over rice,img/bowls/JapaneseCurryChicken_Bowl.jpg,Bowls,Bowls,wheat-soy-egg-seasame
 Japanese Beef Curry Bowl,Tender sliced Beef glazed with japanese curry sauce served over rice,img/bowls/JapaneseCurryBeef_Bowl.JPG,Bowls,Bowls,wheat-soy-egg-seasame
 Gyudon Beef Bowl,Thinly sliced Beef simmered in sweet and savory sauce served over rice-<br>steamed & subtly assorted veggies on a side,img/bowls/GyudonBeef_Bowl.jpg,Bowls,Bowls,wheat-soy-egg-seasame
+Steamed Sauté Veggie Mini Bowl,Steamed sauté seasoned assorted veggies (small bowl),img/bowls/saulte_veggie.jpg,Bowls,Bowls,wheat-soy
 Veggie Pho,Fresh veggies and fragrant broth in a flavorful rice noodle soup,img/Noodles/Vegetable_Pho.jpg,Noodles,Noodles,wheat-soy-beans-seasame
 Beef Pho,Tender beef slices and meat balls in savory broth with rice noodles and fresh herbs,img/Noodles/Beef_Pho.jpg,Noodles,Noodles,wheat-soy-beans-egg-milk-seasame
 Grilled Chicken Miso_Ramen,Grilled chicken served in a rich miso broth with ramen noodles and assorted veggies,img/Noodles/GrilledChickenMiso_Ramen.jpg,Noodles,Noodles,wheat-soy-beans-egg-milk-seasame
 Tonkotsu (OR) Miso ChashuPork_Ramen,Creamy and savory tonkotsu broth served with tender chashu pork and ramen noodles,img/Noodles/Tonkotsu(OR)MisoChashuPork_Ramen.jpg,Noodles,Noodles,wheat-soy-beans-egg-milk-seasame
 Veggie_Ramen,A flavorful veggie broth with assorted fresh veggies and ramen noodles,img/Noodles/Veggie_Ramen.jpg,Noodles,Noodles,wheat-soy-beans-seasame
-Chef Special 1,Delightful selection of favorites: rainbow rolls-nigiri assortment-spicy tuna rolls-small rolls inari (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 1.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
-Chef Special 2,Delightful selection of favorites: rainbow rolls-nigiri assortment-spicy tuna rolls-small rolls inari (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 2.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
-Platter,Choose between traditional nigiri sushi or combination of sushi rolls and nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Sushi_Platter.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
-MLH Combo,Choose between traditional nigiri sushi or combination of sushi rolls and nigiri <br>Options: assorted fully cooked & raw fish*,img/specialities/Combo.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
+Chef Special 1,Delightful selection of favorites: nigiri assortment-spicy rolls and spicy crab salad rolls (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 1.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+Chef Special 2,Delightful selection of favorites: nigiri assortment-spicy rolls-mini rolls (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 2.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+MLH Combo,Delightful selection of favorites: rainbow rolls-nigiri assortment-spicy rolls-mini rolls- avo iniari (come complete with soy sauce and wasabi for the perfect sushi experience)*,img/specialities/Chef Special Sushi 3.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (sealand originial),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Sushi_Platter.jpg,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (assorted ),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Assorted Sushi platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (ichiban),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Ichiban Sushi Platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
+Platters (Sunflower sushi),Choose between traditional nigiri sushi or combination of sushi maki rolls-rainbow rolls- nigiri<br>Options: assorted fully cooked & raw fish*,img/specialities/Sunflower Sushi Platter.JPG,Specialities,Specialities,soy-beans-shellfish-seasame
