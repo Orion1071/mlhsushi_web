@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,10 +29,10 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container-fluid collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div class="container-fluid collapse navbar-collapse justify-content-center" id="navbar_links">
             <ul class="navbar-nav">
-                
- 
+
+
                 <!-- menu -->
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="Menu" href="#menu_index">Menu</a>
@@ -71,16 +72,28 @@
 
 <script>
 
-    //$('.navbar-toggler').click(function () {
-    //    if (!$('#navbarSupportedContent').hasClass('show')) {
-    //        $('#navbarSupportedContent').collapse('hide');
-    //    }
-    //});
+    $('.navbar-toggler').click(function () {
+        if ($('#navbar_links').hasClass('show')) {
+            $('#navbar_links').collapse('hide');
+        } else {
+            $('#navbar_links').collapse('show');
+        }
+    });
 
-    $('.navbar-nav>li>a').on('click', function(){
+    $('#navbar_links').on('shown.bs.collapse', function () {
+        $('.navbar-toggler').attr('aria-expanded', 'true');
+    });
+
+    $('#navbar_links').on('hidden.bs.collapse', function () {
+        $('.navbar-toggler').attr('aria-expanded', 'false');
+    });
+
+    $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
-    
+
+
+
 </script>
 
 </html>
