@@ -3,7 +3,8 @@
     --color-primary: #242a78;
     --color-secondary: #160e39;
     --color-tertiary: #537c9c;
-    /* #242a7 */
+    --color-background : #e5f4f1;
+    /* #242a7  #e2eaf1*/
     /* --font-title: "Abril Fatface", serif;  */
     /* --font-para: "Noto Serif", serif; */
     --font-title: "Open Sans", sans-serif;
@@ -19,11 +20,17 @@
 
     text-align: justify;
     text-justify: auto;
+    
+
+    /* for debugging */
     /* background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important; */
 }
+body {
 
+    background-color: var(--color-background);
+}
 h2,
 h3,
 h4 {
@@ -49,8 +56,16 @@ h4 {
 
 }
 
+.navbar ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar ul a {
     font-family: var(--font-main);
+    margin: 0 10px; /* Adjust the value as needed */
+    white-space: nowrap;
 }
 
 /* for hero page */
@@ -415,6 +430,7 @@ p {
 .menu .card {
     border: none !important;
     text-decoration: none;
+    background-color: var(--color-background);
     /* This will remove the border */
 }
 
@@ -492,7 +508,7 @@ p {
     -webkit-backdrop-filter: blur(11.5px);
     border: 1px solid rgba(255, 255, 255, 0.45);
     padding: 30px;
-    margin-bottom: var(--margin_bot);
+    margin-bottom: 100px;
     /* Black text */
 }
 
