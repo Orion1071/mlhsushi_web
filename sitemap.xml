@@ -1,53 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://www.www.mlhsushi.com/</loc>
+		<priority>0.89</priority>
+		<lastmod>2024-04-13</lastmod>
+	</url>
+	<url>
 		<loc>https://www.www.mlhsushi.com/mlhsushi_web</loc>
 		<priority>0.89</priority>
-		<lastmod>2024-05-13</lastmod>
+		<lastmod>2024-05-12</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/landing_marketing</loc>
-		<priority>0.89</priority>
-		<lastmod>2024-04-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/cakeme_web</loc>
-		<priority>0.89</priority>
-		<lastmod>2024-04-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/personal_web/gallary.html</loc>
-		<priority>0.78</priority>
-		<lastmod>2023-09-18</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/navbar.html</loc>
-		<priority>0.78</priority>
-		<lastmod>2024-05-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/menu_glight.html</loc>
-		<priority>0.78</priority>
-		<lastmod>2024-05-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/gallary.html</loc>
-		<priority>0.78</priority>
-		<lastmod>2024-05-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/footer.html</loc>
+		<loc>https://www.www.mlhsushi.com/mlhsushi_web/aboutus.html</loc>
 		<priority>0.78</priority>
 		<lastmod>2024-05-12</lastmod>
 	</url>
 	<url>
 		<loc>https://www.www.mlhsushi.com/mlhsushi_web/contactus.html</loc>
 		<priority>0.78</priority>
-		<lastmod>2024-04-26</lastmod>
+		<lastmod>2024-04-25</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/aboutus.html</loc>
+		<loc>https://www.www.mlhsushi.com/mlhsushi_web/footer.html</loc>
 		<priority>0.78</priority>
-		<lastmod>2024-05-13</lastmod>
+		<lastmod>2024-05-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.mlhsushi.com/mlhsushi_web/gallary.html</loc>
+		<priority>0.78</priority>
+		<lastmod>2024-05-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.mlhsushi.com/mlhsushi_web/menu_glight.html</loc>
+		<priority>0.78</priority>
+		<lastmod>2024-05-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.mlhsushi.com/mlhsushi_web/navbar.html</loc>
+		<priority>0.78</priority>
+		<lastmod>2024-05-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.mlhsushi.com/personal_web/gallary.html</loc>
+		<priority>0.78</priority>
+		<lastmod>2023-09-17</lastmod>
 	</url>
 </urlset>
