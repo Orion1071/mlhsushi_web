@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.www.mlhsushi.com/</loc>
+		<loc>https://www.mlhsushi.com/</loc>
 		<priority>0.89</priority>
 		<lastmod>2024-04-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web</loc>
+		<loc>https://www.mlhsushi.com/#about_us_index</loc>
 		<priority>0.89</priority>
 		<lastmod>2024-05-12</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/aboutus.html</loc>
+		<loc>https://www.mlhsushi.com/mlhsushi_web/#gallary_index</loc>
 		<priority>0.78</priority>
 		<lastmod>2024-05-12</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/contactus.html</loc>
+		<loc>https://www.mlhsushi.com/mlhsushi_web/#menu_index</loc>
 		<priority>0.78</priority>
 		<lastmod>2024-04-25</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/footer.html</loc>
+		<loc>https://www.mlhsushi.com/mlhsushi_web/#menu_index</loc>
 		<priority>0.78</priority>
 		<lastmod>2024-05-11</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/gallary.html</loc>
+		<loc>https://www.mlhsushi.com/mlhsushi_web/#foot_bar</loc>
 		<priority>0.78</priority>
 		<lastmod>2024-05-12</lastmod>
 	</url>
+
 	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/menu_glight.html</loc>
+		<loc>https://www.mlhsushi.com/mlhsushi_web/#nav_bars</loc>
 		<priority>0.78</priority>
 		<lastmod>2024-05-12</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/mlhsushi_web/navbar.html</loc>
-		<priority>0.78</priority>
-		<lastmod>2024-05-12</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.mlhsushi.com/personal_web/gallary.html</loc>
-		<priority>0.78</priority>
-		<lastmod>2023-09-17</lastmod>
 	</url>
 </urlset>
